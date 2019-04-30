@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Massa Corporal</string>
+    <string name="txtMulher">Mulher</string>
+    <string name="txtIdade">Idade</string>
+    <string name="txtPeso">Peso</string>
+    <string name="txtAltura">Altura</string>
+    <string name="txtAtividade">Atividade Física</string>
+    <string name="txtSedentario">Sedentário</string>
+    <string name="txtModerado">Moderado</string>
+    <string name="txtIntenso">Intenso</string>
+    <string name="btnCalcular">Calcular</string>
+    <string name="txtResultado">Resultado</string>
+    <string name="txtPesoIdeal">kg</string>
+    <string name="perguntaSpinner">Selecione a modalidade :</string>
+    <string name="resultadoSpinner">resultado</string>
+    <string name="SpinnerReesultado"/>
+    <string name="txtSexo">genero</string>
+    <string name="btnVeririfcar">Verificar</string>
+    <string name="btnPesoIdeal">Veja seu peso ideal aqui!</string>
+</resources>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".PesoIdealActivity"
+        android:background="@android:color/background_light">
+    <TextView
+            android:text="@string/txtSexo"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtSexo"
+            android:textColor="@android:color/background_light"
+            android:textSize="30sp"
+            android:layout_marginStart="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:textAlignment="center" android:layout_marginTop="16dp" app:layout_constraintTop_toTopOf="parent"
+            android:background="@android:color/holo_blue_light" app:layout_constraintHorizontal_bias="0.496"/>
+    <TextView
+            android:text="@string/txtPesoIdeal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtPesoIdeal"
+            android:layout_marginTop="32dp"
+            app:layout_constraintTop_toBottomOf="@+id/txtSexo"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="8dp"
+            android:textAlignment="center" android:textSize="18sp" android:textStyle="bold"
+            android:textColor="@android:color/holo_blue_light"/>
+    <TextView
+            android:text="@string/perguntaSpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="16dp"
+            android:id="@+id/txtPerguntaSpinner"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="36dp"
+            app:layout_constraintTop_toBottomOf="@+id/txtPesoIdeal"
+            android:textStyle="bold|italic"
+            android:textColor="@android:color/holo_blue_light" android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.099"/>
+    <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="13dp"
+            android:id="@+id/spnAtividade"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintStart_toEndOf="@+id/txtPerguntaSpinner" android:layout_marginStart="8dp"
+            app:layout_constraintHorizontal_bias="0.635" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/btnVerificar" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/txtPesoIdeal" app:layout_constraintVertical_bias="0.659"/>
+    <TextView
+            android:text="@string/SpinnerReesultado"
+            android:layout_width="358dp"
+            android:layout_height="23dp"
+            android:id="@+id/txtResultadoSpinner"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp"
+            android:textStyle="bold" android:textSize="14sp"
+            app:layout_constraintTop_toBottomOf="@+id/btnVerificar" android:layout_marginTop="24dp"
+            android:textAlignment="center"/>
+    <Button
+            android:text="@string/btnVeririfcar"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:id="@+id/btnVerificar" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+            android:background="@android:color/holo_blue_light" android:textStyle="bold"
+            android:textColor="@android:color/background_light"
+            android:layout_marginTop="24dp" app:layout_constraintTop_toBottomOf="@+id/txtPerguntaSpinner"
+            app:layout_constraintHorizontal_bias="0.498"/>
+</android.support.constraint.ConstraintLayout>
